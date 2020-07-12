@@ -1,0 +1,19 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "3>7LtHM{sx,e",
+  "database": "my_nestjs_project",
+  "entities": [
+    "src/**/**.entity{.ts,.js}"
+  ],
+  "migrations": [
+    "src/migrations/**.entity{.ts,.js}"
+  ],
+  "synchronize": true,
+  "autoLoadEntities": true,
+  "extra": {
+    "insecureAuth": true
+  }
+}
